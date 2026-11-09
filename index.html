@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Faizan Ahmad - Web Developer & Graphic Designer. Crafted in the modern, clean aesthetic of the Finwa Portfolio theme. Featuring 4 years of experience and a 1-day delivery guarantee." />
+  <meta name="keywords" content="Faizan Ahmad, Finwa Theme, Web Developer, Graphic Designer, 1-Day Delivery, Portfolio, ICS, BS-Commerce" />
+  <meta name="author" content="Faizan Ahmad" />
+
+  <title>Faizan Ahmad | Web Developer &amp; Graphic Designer — Finwa Edition</title>
+
+  <!-- Google Fonts: Plus Jakarta Sans & Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Ambient Soft Glow Elements (Finwa Atmospheric Lighting) -->
+  <div class="finwa-glow glow-top" aria-hidden="true"></div>
+  <div class="finwa-glow glow-bottom" aria-hidden="true"></div>
+
+  <!-- Header / Navigation Bar -->
+  <header class="site-header" id="header">
+    <div class="container nav-container">
+      <a href="#home" class="brand-logo" aria-label="Faizan Ahmad Portfolio Home">
+        <span class="logo-mark">F</span>
+        <span class="logo-name">Faizan<span class="logo-accent">.</span></span>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="nav-menu" id="navMenu" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+          <li class="nav-item"><a href="#features" class="nav-link">Highlights</a></li>
+          <li class="nav-item"><a href="#portfolio" class="nav-link">Portfolio</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <a href="#contact" class="btn btn-primary nav-cta">Get In Touch</a>
+      </nav>
+
+      <!-- Action Utilities -->
+      <div class="nav-actions">
+        <!-- Theme Toggle (Light / Dark) -->
+        <button class="theme-toggle-btn" id="themeToggle" aria-label="Toggle dark/light theme" title="Toggle Theme">
+          <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <!-- Mobile Hamburger Button -->
+        <button class="hamburger-btn" id="hamburgerBtn" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span class="bar bar-1"></span>
+          <span class="bar bar-2"></span>
+          <span class="bar bar-3"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION (Finwa Layout Style) -->
+    <section class="hero-section" id="home">
+      <div class="container hero-container">
+        
+        <!-- Left Hero Content -->
+        <div class="hero-content">
+          <!-- Finwa Signature Pill Badge -->
+          <div class="finwa-badge">
+            <span class="badge-dot"></span>
+            <span>Personal Portfolio • ⚡ 1-Day Delivery Guarantee</span>
+          </div>
+
+          <h1 class="hero-title">
+            Welcome To My <br />
+            <span class="highlight-title">Digital Home.</span>
+          </h1>
+
+          <p class="hero-subtitle">
+            I am <strong>Faizan Ahmad</strong>, combining <strong>4 years of professional experience</strong> in Web Development and Graphic Design. From responsive frontend code to iconic brand identities — delivered to your desk in <strong>record 24 hours</strong>.
+          </p>
+
+          <!-- Action Buttons Group -->
+          <div class="hero-actions">
+            <a href="#portfolio" class="btn btn-primary">Portfolio</a>
+            <a href="#services" class="btn btn-secondary">Show All</a>
+            <a href="https://wa.me/923109943462?text=Hi%20Faizan,%20I%20saw%20your%20portfolio%20and%20want%20to%20discuss%20a%20project!" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp" title="Instant WhatsApp Chat">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+              </svg>
+              <span>Quick WhatsApp</span>
+            </a>
+          </div>
+
+          <!-- Finwa Embedded Skill Progress Bars -->
+          <div class="hero-skills-block">
+            <span class="skills-block-title">Skills Overview</span>
+            <div class="finwa-progress-item">
+              <div class="progress-info">
+                <span>Frontend Web Development (HTML/CSS/JS)</span>
+                <span class="progress-val">95%</span>
+              </div>
+              <div class="progress-bar-track">
+                <div class="progress-bar-fill" style="width: 95%;"></div>
+              </div>
+            </div>
+
+            <div class="finwa-progress-item">
+              <div class="progress-info">
+                <span>Graphic Design &amp; Brand Systems</span>
+                <span class="progress-val">92%</span>
+              </div>
+              <div class="progress-bar-track">
+                <div class="progress-bar-fill" style="width: 92%;"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Hero Visual (Finwa Circular Orbital Avatar & Floating Badges) -->
+        <div class="hero-visual">
+          <div class="orbital-wrapper">
+            <!-- Concentric Circular Orbital Rings -->
+            <div class="orbital-ring ring-outer"></div>
+            <div class="orbital-ring ring-inner"></div>
+
+            <!-- Floating Orbital Social/Skill Badges -->
+            <div class="orbit-badge badge-behance" title="Design Portfolio">
+              <span>Bē</span>
+            </div>
+            <div class="orbit-badge badge-code" title="Web Dev Code">
+              <span>&lt;/&gt;</span>
+            </div>
+            <div class="orbit-badge badge-globe" title="Global Projects">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+            </div>
+            <div class="orbit-badge badge-camera" title="Visual Assets">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+            </div>
+
+            <!-- Central Finwa Avatar Portal -->
+            <div class="avatar-portal">
+              <div class="avatar-backdrop">
+                <!-- Professional Stylized Avatar Illustration / Frame -->
+                <div class="finwa-portrait">
+                  <div class="portrait-initials">FA</div>
+                  <div class="portrait-sub">FAIZAN AHMAD</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Floating Metric Pills around Avatar -->
+            <div class="floating-stat stat-one">
+              <span class="fs-num">4+</span>
+              <span class="fs-label">Years Pro</span>
+            </div>
+
+            <div class="floating-stat stat-two">
+              <span class="fs-num">24h</span>
+              <span class="fs-label">1-Day Guarantee</span>
+            </div>
+
+            <div class="floating-stat stat-three">
+              <span class="fs-num">100%</span>
+              <span class="fs-label">Satisfaction</span>
+            </div>
+
+            <!-- Finwa "Learn More" Scroll Indicator -->
+            <a href="#about" class="finwa-scroll-pill">
+              <span class="scroll-arrow">↓</span>
+              <span class="scroll-text">Learn More</span>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SIGNATURE FINWA OVERLAPPING CROSSED RIBBON MARQUEE -->
+    <div class="finwa-marquee-section" aria-hidden="true">
+      <div class="marquee-ribbon ribbon-1">
+        <div class="marquee-track">
+          <span>⚡ 1-DAY DELIVERY GUARANTEE</span>
+          <span class="star-sep">✦</span>
+          <span>HIGH-CONVERTING WEB DEVELOPMENT</span>
+          <span class="star-sep">✦</span>
+          <span>BRAND IDENTITY &amp; GRAPHIC DESIGN</span>
+          <span class="star-sep">✦</span>
+          <span>ICS PROGRAMMING + BS-COMMERCE BUSINESS MINDSET</span>
+          <span class="star-sep">✦</span>
+          <span>PIXEL PERFECT FRONTEND</span>
+          <span class="star-sep">✦</span>
+          <span>24-HOUR SPRINT AVAILABLE</span>
+          <span class="star-sep">✦</span>
+          <span>⚡ 1-DAY DELIVERY GUARANTEE</span>
+          <span class="star-sep">✦</span>
+          <span>HIGH-CONVERTING WEB DEVELOPMENT</span>
+          <span class="star-sep">✦</span>
+        </div>
+      </div>
+      <div class="marquee-ribbon ribbon-2">
+        <div class="marquee-track marquee-reverse">
+          <span>FAIZAN AHMAD PORTFOLIO</span>
+          <span class="star-sep">✦</span>
+          <span>FAST DELIVERY EXPERT</span>
+          <span class="star-sep">✦</span>
+          <span>HTML5 • CSS3 • JAVASCRIPT • FIGMA</span>
+          <span class="star-sep">✦</span>
+          <span>4 YEARS REAL WORLD EXPERIENCE</span>
+          <span class="star-sep">✦</span>
+          <span>READY TO WORK WITH YOU</span>
+          <span class="star-sep">✦</span>
+          <span>FAIZAN AHMAD PORTFOLIO</span>
+          <span class="star-sep">✦</span>
+          <span>FAST DELIVERY EXPERT</span>
+          <span class="star-sep">✦</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- FINWA 5-CARD FEATURE HIGHLIGHT STRIP (Section One to Five) -->
+    <section class="section features-strip-section" id="features">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="finwa-section-pill">Core Pillars</span>
+          <h2 class="section-title">Everything You Need To Dominate Online</h2>
+          <p class="section-desc">Modeled after Finwa's signature 5-column precision card architecture.</p>
+        </div>
+
+        <div class="finwa-cards-row">
+          <!-- Card 1 -->
+          <div class="finwa-card">
+            <div class="card-icon-box">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+            </div>
+            <h4>Web Architecture</h4>
+            <p>Clean, semantic, ultra-responsive HTML5 &amp; modern CSS3 coding.</p>
+            <a href="#services" class="card-link">Show More &rarr;</a>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="finwa-card">
+            <div class="card-icon-box">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M12 2a14.5 14.5 0 0 0 0 20 10 10 0 0 0 10-10"></path></svg>
+            </div>
+            <h4>Brand Identity</h4>
+            <p>Memorable vector logos, color theory, and full corporate stationery.</p>
+            <a href="#services" class="card-link">Show More &rarr;</a>
+          </div>
+
+          <!-- Card 3 (Finwa Signature Active/Filled Hero Card) -->
+          <div class="finwa-card card-active-filled">
+            <div class="card-icon-box icon-white">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+            </div>
+            <h4>⚡ 1-Day Turnaround</h4>
+            <p>My flagship 24-hour delivery promise for websites and visual assets.</p>
+            <a href="#contact" class="card-link link-white">Order Sprint &rarr;</a>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="finwa-card">
+            <div class="card-icon-box">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="3" y1="9" x2="21" y2="9"></line><line x1="9" y1="21" x2="9" y2="9"></line></svg>
+            </div>
+            <h4>UI / UX Prototyping</h4>
+            <p>Figma mockups, interactive wireframes, and intuitive user experiences.</p>
+            <a href="#services" class="card-link">Show More &rarr;</a>
+          </div>
+
+          <!-- Card 5 -->
+          <div class="finwa-card">
+            <div class="card-icon-box">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21.21 15.89A10 10 0 1 1 8 2.83"></path><path d="M22 12A10 10 0 0 0 12 2v10z"></path></svg>
+            </div>
+            <h4>Commerce CRO</h4>
+            <p>BS-Commerce driven sales psychology &amp; conversion optimization.</p>
+            <a href="#about" class="card-link">Show More &rarr;</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT ME & ACADEMIC PATH -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="about-flex-layout">
+          <!-- Left Column: Story & Education -->
+          <div class="about-text-col">
+            <span class="finwa-section-pill">About Faizan</span>
+            <h2 class="section-title">Showcasing My Work, Skills, And Vision.</h2>
+            <p class="section-lead">
+              I am a multidisciplinary <strong>Web Developer &amp; Graphic Designer</strong> with <strong>4 years</strong> of battle-tested professional experience. I eliminate the friction between design ideas and engineering reality.
+            </p>
+            <p>
+              Clients usually have to coordinate between an agency designer and a separate developer, causing delays and misaligned outcomes. With my dual background, I design with technical performance in mind and write code with typographic elegance.
+            </p>
+
+            <!-- Academic Timeline (ICS to BS-Commerce) -->
+            <div class="finwa-academic-box">
+              <h4 class="academic-title">
+                <span class="icon-academic">🎓</span>
+                Educational Background &amp; Edge
+              </h4>
+              <div class="edu-item">
+                <div class="edu-badge">Foundation</div>
+                <div class="edu-details">
+                  <h5>ICS — Intermediate in Computer Science (1st &amp; 2nd Year)</h5>
+                  <p>In-depth study of computer algorithms, software architecture, relational logic, and modern programming foundations.</p>
+                </div>
+              </div>
+
+              <div class="edu-item">
+                <div class="edu-badge badge-active">Current Degree</div>
+                <div class="edu-details">
+                  <h5>BS-Commerce (Bachelor of Science in Commerce)</h5>
+                  <p>Infusing technological precision with business fundamentals, commercial marketing strategy, e-commerce sales funnels, and ROI maximization.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Quick Guarantee Pill -->
+            <div class="finwa-guarantee-card">
+              <div class="gc-icon">⚡</div>
+              <div class="gc-content">
+                <strong>Why the 1-Day Delivery?</strong>
+                <p>Because great businesses cannot wait weeks for a landing page or creative assets. I deliver complete, functional prototypes within 24 hours.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Visual Metrics & Skills Stack -->
+          <div class="about-visual-col">
+            <div class="about-metric-card">
+              <div class="metric-top">
+                <span class="m-number">4+</span>
+                <span class="m-text">Years of Proven Industry Experience</span>
+              </div>
+              <p class="m-desc">Designing, coding, and deploying client-facing digital assets worldwide.</p>
+            </div>
+
+            <div class="skills-card-white">
+              <h4>Technical &amp; Creative Stack</h4>
+              <div class="finwa-tag-cloud">
+                <span class="finwa-tag">Semantic HTML5</span>
+                <span class="finwa-tag">CSS3 / Flexbox / Grid</span>
+                <span class="finwa-tag">Vanilla JavaScript (ES6+)</span>
+                <span class="finwa-tag">Responsive Mobile-First UI</span>
+                <span class="finwa-tag">Brand Identity &amp; Logos</span>
+                <span class="finwa-tag">UI / UX Prototyping</span>
+                <span class="finwa-tag">Social Media Ad Creatives</span>
+                <span class="finwa-tag">Figma / Adobe Suite</span>
+                <span class="finwa-tag">Core Web Vitals &amp; SEO</span>
+                <span class="finwa-tag">⚡ 24h Delivery Sprints</span>
+              </div>
+            </div>
+
+            <div class="contact-card-banner">
+              <div class="banner-avatar">FA</div>
+              <div class="banner-info">
+                <strong>Have a Project in Mind?</strong>
+                <span>Faizan is available for immediate hire</span>
+              </div>
+              <a href="#contact" class="btn btn-primary btn-sm">Hire Me</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section class="section services-section" id="services">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="finwa-section-pill">Specialized Services</span>
+          <h2 class="section-title">Creativity Turned Into Reality</h2>
+          <p class="section-desc">Tailored digital services engineered for speed, conversion, and visual prestige.</p>
+        </div>
+
+        <div class="services-grid">
+          <!-- Service 1: Web Development -->
+          <div class="service-box">
+            <div class="service-header-row">
+              <div class="service-icon-wrap icon-blue">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+              </div>
+              <span class="delivery-flag">⚡ 24h Turnaround</span>
+            </div>
+            <h3 class="service-heading">Frontend Web Development</h3>
+            <p class="service-summary">
+              Custom landing pages, portfolios, and responsive websites coded cleanly with modern HTML5, CSS3, and vanilla JavaScript.
+            </p>
+            <ul class="service-checklist">
+              <li><span>✓</span> 100% Mobile, Tablet &amp; Desktop Responsive</li>
+              <li><span>✓</span> Featherweight code for sub-second load times</li>
+              <li><span>✓</span> Clean, modular, well-commented code</li>
+              <li><span>✓</span> SEO-ready semantic markup</li>
+            </ul>
+            <a href="#contact" class="btn btn-secondary btn-full">Book Web Development</a>
+          </div>
+
+          <!-- Service 2: Graphic Design -->
+          <div class="service-box">
+            <div class="service-header-row">
+              <div class="service-icon-wrap icon-indigo">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19l7-7 3 3-7 7-3-3z"></path><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"></path><path d="M2 2l7.586 7.586"></path><circle cx="11" cy="11" r="2"></circle></svg>
+              </div>
+              <span class="delivery-flag">⚡ 24h Turnaround</span>
+            </div>
+            <h3 class="service-heading">Brand Identity &amp; Graphic Design</h3>
+            <p class="service-summary">
+              Eye-catching vector logos, social media ad packages, and brand guidelines that captivate audiences and inspire trust.
+            </p>
+            <ul class="service-checklist">
+              <li><span>✓</span> Unique Logo Marks &amp; Color Palettes</li>
+              <li><span>✓</span> High-CTR Social Media Ad Banners</li>
+              <li><span>✓</span> Print-Ready &amp; Scalable Vector Assets</li>
+              <li><span>✓</span> Complete Brand Style Guides</li>
+            </ul>
+            <a href="#contact" class="btn btn-secondary btn-full">Book Graphic Design</a>
+          </div>
+
+          <!-- Service 3: Urgent 1-Day Sprint -->
+          <div class="service-box service-box-featured">
+            <div class="featured-ribbon-tag">POPULAR SPRINT</div>
+            <div class="service-header-row">
+              <div class="service-icon-wrap icon-featured">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+              </div>
+              <span class="delivery-flag flag-urgent">⚡ Guaranteed 1 Day</span>
+            </div>
+            <h3 class="service-heading">1-Day Rapid Launch Sprint</h3>
+            <p class="service-summary">
+              Facing an urgent deadline or investor presentation tomorrow? Have your complete web page or design package ready in 24 hours flat.
+            </p>
+            <ul class="service-checklist">
+              <li><span>✓</span> Immediate project kickoff within 1 hour</li>
+              <li><span>✓</span> Direct WhatsApp collaboration throughout the sprint</li>
+              <li><span>✓</span> Production-ready deployable code &amp; design assets</li>
+              <li><span>✓</span> Priority immediate turnaround revisions</li>
+            </ul>
+            <a href="https://wa.me/923109943462?text=Hi%20Faizan,%20I%20need%20an%20Urgent%201-Day%20Sprint!" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-full">Claim 1-Day Sprint Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PORTFOLIO SHOWCASE SECTION -->
+    <section class="section portfolio-section" id="portfolio">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="finwa-section-pill">Portfolio</span>
+          <h2 class="section-title">Ideas Brought To Life</h2>
+          <p class="section-desc">Hand-picked web and graphic design projects crafted for modern brands.</p>
+        </div>
+
+        <!-- Filter Controls -->
+        <div class="portfolio-filter-row">
+          <button class="finwa-filter-btn active" data-filter="all">All</button>
+          <button class="finwa-filter-btn" data-filter="web">Web Development</button>
+          <button class="finwa-filter-btn" data-filter="design">Graphic Design</button>
+        </div>
+
+        <!-- Projects Grid -->
+        <div class="portfolio-cards-grid" id="portfolioGrid">
+          
+          <!-- Project 1: Web Dev -->
+          <div class="finwa-project-card" data-category="web">
+            <div class="project-thumb-box web-bg-1">
+              <div class="finwa-card-pill">Web Dev</div>
+              <div class="mock-device-header">
+                <span class="dot d1"></span><span class="dot d2"></span><span class="dot d3"></span>
+                <span class="mock-address">fintech-app.dev</span>
+              </div>
+              <div class="mock-screen">
+                <div class="wire-hero-bar"></div>
+                <div class="wire-cards-row">
+                  <span></span><span></span><span></span>
+                </div>
+              </div>
+            </div>
+            <div class="project-info-box">
+              <span class="project-cat-label">Web Development • 24h Delivery</span>
+              <h3 class="project-heading">Fintech Cloud Dashboard</h3>
+              <p class="project-excerpt">Responsive finance dashboard built with semantic HTML5, pure CSS Grid, and live filtering.</p>
+              <div class="project-footer">
+                <a href="#contact" class="btn btn-primary btn-sm">Show More</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2: Graphic Design -->
+          <div class="finwa-project-card" data-category="design">
+            <div class="project-thumb-box design-bg-1">
+              <div class="finwa-card-pill">Graphic Design</div>
+              <div class="design-preview-inner">
+                <div class="finwa-logo-emblem">
+                  <span>V</span>
+                </div>
+                <span class="emblem-label">VERTEX BRANDING</span>
+              </div>
+            </div>
+            <div class="project-info-box">
+              <span class="project-cat-label">Brand Identity • Typography</span>
+              <h3 class="project-heading">Vertex Global Brand System</h3>
+              <p class="project-excerpt">Complete vector identity kit, visual guidelines, typography pairings, and digital stationary.</p>
+              <div class="project-footer">
+                <a href="#contact" class="btn btn-primary btn-sm">Show More</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3: Web Dev -->
+          <div class="finwa-project-card" data-category="web">
+            <div class="project-thumb-box web-bg-2">
+              <div class="finwa-card-pill">Web Dev</div>
+              <div class="mock-device-header">
+                <span class="dot d1"></span><span class="dot d2"></span><span class="dot d3"></span>
+                <span class="mock-address">store-commerce.io</span>
+              </div>
+              <div class="mock-screen">
+                <div class="shop-cards-mock">
+                  <div></div><div></div><div></div><div></div>
+                </div>
+              </div>
+            </div>
+            <div class="project-info-box">
+              <span class="project-cat-label">E-Commerce • BS-Commerce CRO</span>
+              <h3 class="project-heading">High-Conversion Storefront</h3>
+              <p class="project-excerpt">Speed-optimized online commerce interface applying consumer behavioral principles for high sales.</p>
+              <div class="project-footer">
+                <a href="#contact" class="btn btn-primary btn-sm">Show More</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 4: Graphic Design -->
+          <div class="finwa-project-card" data-category="design">
+            <div class="project-thumb-box design-bg-2">
+              <div class="finwa-card-pill">Graphic Design</div>
+              <div class="social-ad-mock">
+                <span class="ad-small-pill">CAMPAIGN 2026</span>
+                <h4 class="ad-title">EXPAND YOUR IMPACT</h4>
+                <span class="ad-cta-button">EXPLORE</span>
+              </div>
+            </div>
+            <div class="project-info-box">
+              <span class="project-cat-label">Social Media Ads • High CTR</span>
+              <h3 class="project-heading">Multi-Channel Ad Creative Pack</h3>
+              <p class="project-excerpt">Cohesive set of 15 high-converting Instagram and LinkedIn promotional banners for product launch.</p>
+              <div class="project-footer">
+                <a href="#contact" class="btn btn-primary btn-sm">Show More</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 5: Web Dev -->
+          <div class="finwa-project-card" data-category="web">
+            <div class="project-thumb-box web-bg-3">
+              <div class="finwa-card-pill">Web Dev</div>
+              <div class="mock-device-header">
+                <span class="dot d1"></span><span class="dot d2"></span><span class="dot d3"></span>
+                <span class="mock-address">saas-landing.com</span>
+              </div>
+              <div class="mock-screen">
+                <div class="wire-hero-bar" style="height: 30px; margin-bottom: 8px;"></div>
+                <div class="wire-cards-row" style="height: 45px;">
+                  <span style="background: rgba(37,99,235,0.15)"></span>
+                  <span style="background: rgba(37,99,235,0.15)"></span>
+                </div>
+              </div>
+            </div>
+            <div class="project-info-box">
+              <span class="project-cat-label">SaaS Landing Page • Dark/Light Mode</span>
+              <h3 class="project-heading">NextGen SaaS Product Launch</h3>
+              <p class="project-excerpt">Interactive landing page with dynamic pricing cards, testimonial slider, and fast load score.</p>
+              <div class="project-footer">
+                <a href="#contact" class="btn btn-primary btn-sm">Show More</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 6: Graphic Design -->
+          <div class="finwa-project-card" data-category="design">
+            <div class="project-thumb-box design-bg-3">
+              <div class="finwa-card-pill">Graphic Design</div>
+              <div class="mobile-app-frame">
+                <div class="app-top-notch"></div>
+                <div class="app-card-mock"></div>
+                <div class="app-btn-mock"></div>
+              </div>
+            </div>
+            <div class="project-info-box">
+              <span class="project-cat-label">UI / UX • Design System</span>
+              <h3 class="project-heading">Mobile Healthcare App UI Kit</h3>
+              <p class="project-excerpt">Accessible component system with Figma tokens, patient booking flow, and sleek micro-interactions.</p>
+              <div class="project-footer">
+                <a href="#contact" class="btn btn-primary btn-sm">Show More</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="finwa-section-pill">Let's Connect</span>
+          <h2 class="section-title">Ready To Launch Your Project?</h2>
+          <p class="section-desc">Reach out directly or send a message. Fast response guaranteed within 15 minutes.</p>
+        </div>
+
+        <div class="contact-grid-container">
+          <!-- Direct Channels Box -->
+          <div class="direct-channels-card">
+            <h3>Get In Touch Directly</h3>
+            <p>I am currently accepting new projects with my guaranteed 1-day turnaround sprint.</p>
+
+            <div class="channels-list">
+              <!-- Email Item -->
+              <a href="mailto:muhammadfaizanahmad10@gmail.com" class="finwa-channel-card">
+                <div class="channel-icon-pill">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                </div>
+                <div class="channel-text">
+                  <span class="channel-title">Direct Email</span>
+                  <span class="channel-detail">muhammadfaizanahmad10@gmail.com</span>
+                </div>
+              </a>
+
+              <!-- Phone Call Item -->
+              <a href="tel:03109943462" class="finwa-channel-card">
+                <div class="channel-icon-pill">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                </div>
+                <div class="channel-text">
+                  <span class="channel-title">Phone Call</span>
+                  <span class="channel-detail">03109943462</span>
+                </div>
+              </a>
+
+              <!-- WhatsApp Chat Item -->
+              <a href="https://wa.me/923109943462?text=Hello%20Faizan,%20I%20would%20like%20to%20work%20with%20you!" target="_blank" rel="noopener noreferrer" class="finwa-channel-card whatsapp-channel">
+                <div class="channel-icon-pill wa-bg">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+                  </svg>
+                </div>
+                <div class="channel-text">
+                  <span class="channel-title">Instant WhatsApp Chat</span>
+                  <span class="channel-detail">+92 310 9943462</span>
+                </div>
+              </a>
+            </div>
+
+            <!-- Assurance Card -->
+            <div class="quick-reply-pledge">
+              <span class="qr-icon">⚡</span>
+              <div>
+                <strong>Under 15-Minute Response Time</strong>
+                <p>Messages during daytime hours receive immediate answers.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Interactive Contact Form -->
+          <div class="contact-form-container">
+            <h3 class="form-title">Send A Project Message</h3>
+            <p class="form-sub">Tell me about your goals, timeline, or urgent 24-hour sprint needs.</p>
+
+            <form id="contactForm" class="finwa-form" action="https://formsubmit.co/muhammadfaizanahmad10@gmail.com" method="POST" novalidate>
+              <!-- FormSubmit Email Service Configuration -->
+              <input type="hidden" name="_captcha" value="false" />
+              <input type="hidden" name="_template" value="table" />
+              <input type="hidden" name="_subject" value="New Project Inquiry — Faizan.dev Portfolio" />
+
+              <div id="formAlert" class="form-alert" role="alert" style="display: none;"></div>
+
+              <div class="form-group">
+                <label for="userName">Full Name <span class="required">*</span></label>
+                <input type="text" id="userName" name="name" class="finwa-input" placeholder="e.g. Alex Henderson" required />
+                <span class="error-msg" id="nameError">Please enter your name.</span>
+              </div>
+
+              <div class="form-row-2">
+                <div class="form-group">
+                  <label for="userEmail">Email Address <span class="required">*</span></label>
+                  <input type="email" id="userEmail" name="email" class="finwa-input" placeholder="alex@company.com" required />
+                  <span class="error-msg" id="emailError">Please enter a valid email.</span>
+                </div>
+
+                <div class="form-group">
+                  <label for="userPhone">Phone / WhatsApp</label>
+                  <input type="tel" id="userPhone" name="phone" class="finwa-input" placeholder="+1 234 567 890" />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="serviceInterest">Service Needed <span class="required">*</span></label>
+                <select id="serviceInterest" name="service" class="finwa-input" required>
+                  <option value="" disabled selected>Select a Service</option>
+                  <option value="Web Development">Web Development (Responsive Website / Landing Page)</option>
+                  <option value="Graphic Design">Graphic Design (Brand Identity &amp; Creative Assets)</option>
+                  <option value="Full Package (Web + Design)">Full Package (Web Dev + Graphic Design)</option>
+                  <option value="Urgent 1-Day (24h) Delivery Sprint">⚡ Urgent 1-Day (24h) Delivery Sprint</option>
+                </select>
+                <span class="error-msg" id="serviceError">Please choose a service.</span>
+              </div>
+
+              <div class="form-group">
+                <label for="userMessage">Project Outline &amp; Timeline <span class="required">*</span></label>
+                <textarea id="userMessage" name="message" class="finwa-input finwa-textarea" rows="4" placeholder="Briefly outline your requirements or deadline..." required></textarea>
+                <span class="error-msg" id="messageError">Please share some project details.</span>
+              </div>
+
+              <div class="form-buttons-group">
+                <button type="submit" class="btn btn-primary btn-full" id="submitBtn">
+                  <span class="btn-text">Submit Inquiry (Send Email)</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                </button>
+
+                <button type="button" class="btn btn-whatsapp btn-full" id="whatsappFormBtn" title="Send details instantly via WhatsApp">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+                  </svg>
+                  <span>Send via WhatsApp Instead</span>
+                </button>
+              </div>
+
+              <div class="form-delivery-guarantee">
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                <span>Submissions are delivered directly to <strong>muhammadfaizanahmad10@gmail.com</strong></span>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-top-row">
+        <div class="footer-col-brand">
+          <a href="#home" class="brand-logo">
+            <span class="logo-mark">F</span>
+            <span class="logo-name">Faizan<span class="logo-accent">.</span></span>
+          </a>
+          <p class="footer-bio">
+            Personal Portfolio for Faizan Ahmad — Web Developer &amp; Graphic Designer. Built with the clean, elevated aesthetic of Finwa.
+          </p>
+        </div>
+
+        <div class="footer-col-nav">
+          <h5>Quick Links</h5>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#features">Highlights</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col-services">
+          <h5>Services</h5>
+          <ul>
+            <li><a href="#services">Custom Web Development</a></li>
+            <li><a href="#services">Brand Identity &amp; Logo Kits</a></li>
+            <li><a href="#services">UI / UX Prototyping</a></li>
+            <li><a href="#services">⚡ 24-Hour Express Sprint</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col-direct">
+          <h5>Connect</h5>
+          <p>Email: <a href="mailto:muhammadfaizanahmad10@gmail.com">muhammadfaizanahmad10@gmail.com</a></p>
+          <p>Phone: <a href="tel:03109943462">03109943462</a></p>
+          <div class="footer-social-strip">
+            <a href="https://wa.me/923109943462" target="_blank" rel="noopener noreferrer" class="social-circle" title="WhatsApp">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+            </a>
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-circle" title="GitHub">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+            </a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-circle" title="LinkedIn">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom-row">
+        <p>&copy; <span id="currentYear"></span> Faizan Ahmad. Inspired by Finwa UI aesthetic. All rights reserved.</p>
+        <button id="backToTop" class="finwa-back-top" aria-label="Back to top" title="Back to top">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"></polyline></svg>
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Interaction Script -->
+  <script src="script.js"></script>
+</body>
+</html>
